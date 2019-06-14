@@ -1,0 +1,23 @@
+{
+  "name": "network-designer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshaKy/network-designer.git"
+  },
+  "author": "Harsha Ky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshaKy/network-designer/issues"
+  },
+  "homepage": "https://github.com/HarshaKy/network-designer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
