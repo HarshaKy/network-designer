@@ -19,7 +19,7 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
 	res.render('index', {
-		title: 'Network Diagram App',
+		title: 'Network Designer',
 		name1: 'Harsha KY',
 		name2: 'Hari' 
 	})
