@@ -25,6 +25,31 @@ app.get('', (req, res) => {
 	})
 })
 
+app.get('/about', (req, res) => {
+	res.render('about', {
+		title: 'About',
+		name1: 'Harsha KY',
+		name2: 'Hari'
+	})
+})
+
+app.get('/help', (req, res) => {
+	res.render('help', {
+		title: 'Help',
+		name1: 'Harsha KY',
+		name2: 'Hari'
+	})
+})
+
+app.get('*', (req, res) => {
+	res.render('404', {
+		title: '404',
+		name1: 'Harsha KY',
+		name2: 'Hari',
+		errorMessage: 'Page Not Found.'
+	})
+})
+
 app.listen(port, () => {
 	console.log(`Server is up on port ${port}`);
 })
