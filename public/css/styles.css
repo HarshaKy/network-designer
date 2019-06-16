@@ -3,16 +3,16 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.mainContent {
-	padding-left: 16px
-}
+/* .mainContent {
+	overflow: hidden;
+} */
 
 footer {
 	color: #888888;
 	border-top: 1px solid #eeeeee;
 	margin-top: 16px;
 	padding: 16px 0;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 }
@@ -138,20 +138,39 @@ header {
     margin:0 auto;
 }
 #devices {
-    width:28%;
+    width:20%;
     float:left;
-    text-align:center;
-	background-color:red;
-	/* padding: 16px */
 	padding: 1%
 }
 #canvas {
-    width:68%;
+    width:76%;
     float:left;
-    text-align:center;
-	background-color:green;
+
 	padding: 1%
 }
 #clear {
     clear: both;
 }
+
+.sidebar {
+	height: 100%;
+	width: 160px;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	padding: 16px;
+  }
+  
+  .sidebar a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+  }
+  
+  .sidebar a:hover {
+	color: #f1f1f1;
+  }
+  
