@@ -138,12 +138,12 @@ header {
     margin:0 auto;
 }
 #devices {
-    width:20%;
+    width:10%;
     float:left;
-	padding: 1%
+	padding: 1%;
 }
 #canvas {
-    width:76%;
+    width:86%;
     float:left;
 
 	padding: 1%
