@@ -3,10 +3,6 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .mainContent {
-	overflow: hidden;
-} */
-
 footer {
 	color: #888888;
 	border-top: 1px solid #eeeeee;
@@ -141,11 +137,14 @@ header {
     width:10%;
     float:left;
 	padding: 1%;
+	overflow: hidden;
+	word-wrap: break-word;
 }
 #canvas {
     width:86%;
     float:left;
-
+	overflow: hidden;
+	word-wrap: break-word;
 	padding: 1%
 }
 #clear {
